@@ -13,3 +13,11 @@ function add(): number {
 function sum2(a: number, b: number): number {
   return a + b;
 }
+
+sum2(10, 20, 30, 40);
+
+// 함수의 옵셔널 파라미터
+function log(a: string, b?: string, c?: string, d?: string) {}
+
+log('hello world');
+log('hello ts', 'abc');
