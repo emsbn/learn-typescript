@@ -35,3 +35,6 @@ const detailedItem: DetailedDropdown<string, number> = {
   value: 1,
   tag: 'a',
 };
+
+// Best Common Type
+const arr = [1, 2, true, 'a', null];
