@@ -105,3 +105,7 @@ class AddressBook {
 }
 
 new AddressBook();
+
+// 타입 단언(type assertion)
+const div = document.querySelector('div') as HTMLDivElement;
+div.innerText;
